@@ -1,0 +1,16 @@
+{
+  "name": "minifyJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "uglifyjs index.js -c -m -o index.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
